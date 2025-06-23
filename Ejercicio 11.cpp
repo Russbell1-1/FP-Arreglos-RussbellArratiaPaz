@@ -13,5 +13,7 @@ int main(){
 		else if
 		(a[i]<0)q+=a[i];
 	}
-	
+	cout<<"Suma positivos: "<<p<<endl;
+	cout<<"Suma negativos: "<<q<<endl;
+	return 0;
 }
