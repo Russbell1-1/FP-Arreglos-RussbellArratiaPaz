@@ -14,5 +14,9 @@ int main(){
 		c=0;
 		break;
 		}
-	
+	if(c)
+	cout<<"Es capicua";
+	else 
+	cout<<"No es capicua";
+	return 0;
 }
