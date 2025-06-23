@@ -11,7 +11,11 @@ int main(){
 	char a[100],b[100];
 	cout<<"Cadena origen: ";
 	cin.getline(b,100);
+	cout<<"Cadena donde que se reemplazara: ";
+	cin.getline(a,100);
 	mcpy(a,b);
-	cout<<"Cadena copiada: "<<a<<endl;
+	cout<<"\n--- Resultado ---"<<endl;
+	cout<<"Cadena original: "<<b<<endl;
+	cout<<"Cadena reemplazada: "<<a<<endl;
 	return 0;
 }
