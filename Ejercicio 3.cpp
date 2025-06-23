@@ -5,10 +5,10 @@ int main(){
 	char letra[1000];
 	char a;
 	int cont=0;
-	cout<<"Indique la letra de la que desea saber la concurrencia: ";
-	cin>>a;
 	cout<<"Indique la cadena de texto: ";
 	cin.getline(letra,1000);
+	cout<<"Indique la letra de la que desea saber la concurrencia: ";
+	cin>>a;
 	
 	for (int i=0;letra[i]!='\0';i++){
 		if (letra[i]==a)
