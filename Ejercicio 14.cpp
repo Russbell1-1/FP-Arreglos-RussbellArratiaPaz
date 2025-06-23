@@ -16,6 +16,6 @@ int main(){
 	cout<<"Cadena 2: ";
 	cin.getline(b,100);
 	mcat(a,b);
-	cout<<"Resultado: "<<a<<endl;
+	cout<<"Resultado: "<<a<<" "<<endl;
 	return 0;
 }
