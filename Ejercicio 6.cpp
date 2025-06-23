@@ -11,6 +11,7 @@ int main(){
 		if(i%2==0)s1+=a[i];
 		else s2+=a[i];
 	}
-	
+	cout<<"Suma posiciones pares: "<<s1<<endl;
+	cout<<"Suma posiciones impares: "<<s2<<endl;
 	return 0;
 }
